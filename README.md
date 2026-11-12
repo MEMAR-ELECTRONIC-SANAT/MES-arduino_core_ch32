@@ -2,6 +2,10 @@
 
 # هسته آردوینو برای میکروکنترلرهای WCH CH32
 
+<p align="center">
+  <img src="Images/GitHub-Assets/MES-Hero-Banner.svg" width="100%" alt="MEMAR ELECTRONIC SANAT — MES">
+</p>
+
 **با استفاده از Arduino IDE، ‏Arduino CLI و API آشنای آردوینو، میکروکنترلرهای RISC-V خانواده CH32 شرکت WCH را برنامه‌نویسی کنید.**
 
 [![Release](https://img.shields.io/github/v/tag/openwch/arduino_core_ch32?label=release&sort=semver)](https://github.com/openwch/arduino_core_ch32/tags)
@@ -79,6 +83,11 @@ brew install libusb
 
 اگر پس از نصب `libusb` همچنان هنگام آپلود با خطاهای مرتبط با آن مواجه شدید، با تیم MounRiver Studio از طریق نشانی support@mounriver.com تماس بگیرید؛ زنجیره ابزار و OpenOCD توسط این تیم ساخته می‌شوند.
 
+
+<p align="center">
+  <img src="Images/GitHub-Assets/MES-Section-Header.svg" width="100%" alt="Supported WCH CH32 Microcontrollers">
+</p>
+
 ## تراشه‌ها و بردهای پشتیبانی‌شده
 
 | خانواده (Tools → Board) | تراشه‌ها / بردها (Board Select) | هسته پردازنده | حداکثر فرکانس | Flash / RAM | از نسخه |
@@ -125,6 +134,11 @@ brew install libusb
 4. در این خانواده‌ها، فعال‌سازی LTO باعث حذف Handlerهای وقفه هسته می‌شود ([Issue #204](https://github.com/openwch/arduino_core_ch32/issues/204))؛ بنابراین از گزینه‌های معمول بهینه‌سازی استفاده کنید.
 
 فهرست مشکلات و قابلیت‌های در دست بررسی در بخش [Issues مخزن](https://github.com/openwch/arduino_core_ch32/issues) قرار دارد.
+
+
+<p align="center">
+  <img src="Images/GitHub-Assets/MES-Project-Card.svg" width="100%" alt="Arduino Core for WCH CH32 — Development Resources">
+</p>
 
 ## شروع به کار
 
@@ -236,6 +250,11 @@ platform.txt         دستورهای ساخت، زنجیره ابزار و اب
 
 ![MES Divider](Images/MES-Divider.svg)
 
+
+<p align="center">
+  <img src="Images/GitHub-Assets/MES-Status-Strip.svg" width="100%" alt="MES Embedded Engineering Resources">
+</p>
+
 ## تهیه و تدوین
 
 ---
@@ -249,3 +268,8 @@ platform.txt         دستورهای ساخت، زنجیره ابزار و اب
 - پیج اینستاگرام: [https://www.instagram.com/Memar.Electronic](https://www.instagram.com/Memar.Electronic)
 
 [مشاهده سایر آموزش‌ها](https://github.com/MEMAR-ELECTRONIC-SANAT)
+
+
+<p align="center">
+  <img src="Images/GitHub-Assets/MES-Thank-You-Footer.svg" width="100%" alt="Thank you for visiting MES">
+</p>
