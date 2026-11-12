@@ -234,6 +234,8 @@ platform.txt         دستورهای ساخت، زنجیره ابزار و اب
 
 ---
 
+![MES Divider](Images/MES-Divider.svg)
+
 ## تهیه و تدوین
 
 ---
