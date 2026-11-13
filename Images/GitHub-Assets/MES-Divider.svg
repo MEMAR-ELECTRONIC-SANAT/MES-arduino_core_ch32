@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1200" height="56" viewBox="0 0 1200 56"
+     role="img" aria-labelledby="title desc">
+  <title id="title">MES Divider</title>
+  <desc id="desc">A blue and cyan electronic circuit-inspired horizontal divider for Memar Electronic Sanat.</desc>
+  <defs>
+    <linearGradient id="trace" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#1647A5" stop-opacity=".18"/>
+      <stop offset=".28" stop-color="#2878D8"/>
+      <stop offset=".5" stop-color="#36D5E8"/>
+      <stop offset=".72" stop-color="#2878D8"/>
+      <stop offset="1" stop-color="#1647A5" stop-opacity=".18"/>
+    </linearGradient>
+    <linearGradient id="core" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2878D8"/>
+      <stop offset="1" stop-color="#20C7D8"/>
+    </linearGradient>
+    <filter id="softGlow" x="-30%" y="-200%" width="160%" height="500%">
+      <feGaussianBlur stdDeviation="2.2" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="nodeGlow" x="-200%" y="-200%" width="500%" height="500%">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <g fill="none" stroke="url(#trace)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M0 28 H438 L458 28 L474 12 H520"/>
+    <path d="M0 18 H390 L408 18 L420 30 H454"/>
+    <path d="M0 38 H390 L408 38 L420 26 H454"/>
+    <path d="M1200 28 H762 L742 28 L726 12 H680"/>
+    <path d="M1200 18 H810 L792 18 L780 30 H746"/>
+    <path d="M1200 38 H810 L792 38 L780 26 H746"/>
+    <path d="M72 28 V10 H112"/><path d="M170 18 V7 H205"/>
+    <path d="M72 28 V46 H112"/><path d="M170 38 V49 H205"/>
+    <path d="M1128 28 V10 H1088"/><path d="M1030 18 V7 H995"/>
+    <path d="M1128 28 V46 H1088"/><path d="M1030 38 V49 H995"/>
+  </g>
+  <g fill="none" stroke="#35BFE0" stroke-opacity=".55" stroke-width="1">
+    <path d="M245 28 H430"/><path d="M770 28 H955"/>
+    <path d="M300 18 H390"/><path d="M810 18 H900"/>
+    <path d="M300 38 H390"/><path d="M810 38 H900"/>
+  </g>
+  <g>
+    <path d="M505 7 H695 L713 28 L695 49 H505 L487 28 Z" fill="#071A35" stroke="url(#core)" stroke-width="1.7"/>
+    <path d="M515 12 H685 L699 28 L685 44 H515 L501 28 Z" fill="none" stroke="#2B8BD5" stroke-opacity=".45" stroke-width=".8"/>
+    <text x="600" y="33.5" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" letter-spacing="3" fill="#EAFBFF">MES</text>
+    <path d="M533 39 H667" stroke="#36D5E8" stroke-opacity=".55" stroke-width=".8"/>
+  </g>
+  <g fill="#0B2445" stroke="#35C9E2" stroke-width="1.5" filter="url(#nodeGlow)">
+    <circle cx="72" cy="28" r="3.2"/><circle cx="170" cy="18" r="2.7"/><circle cx="170" cy="38" r="2.7"/>
+    <circle cx="1128" cy="28" r="3.2"/><circle cx="1030" cy="18" r="2.7"/><circle cx="1030" cy="38" r="2.7"/>
+    <circle cx="454" cy="28" r="2.5"/><circle cx="746" cy="28" r="2.5"/>
+  </g>
+  <g fill="#36D5E8">
+    <circle cx="112" cy="10" r="1.7"/><circle cx="205" cy="7" r="1.7"/>
+    <circle cx="112" cy="46" r="1.7"/><circle cx="205" cy="49" r="1.7"/>
+    <circle cx="1088" cy="10" r="1.7"/><circle cx="995" cy="7" r="1.7"/>
+    <circle cx="1088" cy="46" r="1.7"/><circle cx="995" cy="49" r="1.7"/>
+  </g>
+  <path d="M8 28 H1192" fill="none" stroke="#8AF5FF" stroke-width="2" stroke-linecap="round" opacity="0" filter="url(#softGlow)">
+    <animate attributeName="opacity" values="0;0.7;0" dur="4.8s" repeatCount="indefinite"/>
+    <animate attributeName="stroke-dasharray" values="0 1184;110 1074;0 1184" dur="4.8s" repeatCount="indefinite"/>
+    <animate attributeName="stroke-dashoffset" values="0;-1184;-2368" dur="4.8s" repeatCount="indefinite"/>
+  </path>
+</svg>
