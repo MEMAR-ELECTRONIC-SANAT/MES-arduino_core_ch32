@@ -6,6 +6,12 @@
 
 ## پیش‌نمایش فایل‌ها
 
+### جداکننده افقی | MES Divider
+
+<p align="center">
+  <img src="MES-Divider.svg" width="100%" alt="MES Divider">
+</p>
+
 ### 1. سربرگ اصلی | MES Hero Banner
 
 <p align="center">
@@ -40,17 +46,26 @@
 
 | فایل | کاربرد |
 |---|---|
+| [MES-Divider.svg](MES-Divider.svg) | جداکننده افقی میان بخش‌های README |
 | [MES-Hero-Banner.svg](MES-Hero-Banner.svg) | سربرگ اصلی README یا پروفایل |
 | [MES-Section-Header.svg](MES-Section-Header.svg) | معرفی بصری بخش‌های مهم |
 | [MES-Project-Card.svg](MES-Project-Card.svg) | پنل معرفی پروژه |
 | [MES-Status-Strip.svg](MES-Status-Strip.svg) | نوار وضعیت و معرفی مجموعه منابع |
 | [MES-Thank-You-Footer.svg](MES-Thank-You-Footer.svg) | انتهای README و پیام پایانی |
 
-جداکننده افقی اصلی نیز در مسیر [Images/MES-Divider.svg](../MES-Divider.svg) قرار دارد.
+فایل جداکننده افقی [MES-Divider.svg](MES-Divider.svg) نیز در همین پوشه قرار دارد.
 
 ## نمونه استفاده در README مخزن‌ها
 
 کدهای زیر برای README واقع در ریشه مخزن نوشته شده‌اند؛ بنابراین مسیر تصاویر از پوشه Images/GitHub-Assets/ آغاز می‌شود.
+
+**جداکننده افقی:**
+
+~~~html
+<p align="center">
+  <img src="Images/GitHub-Assets/MES-Divider.svg" width="100%" alt="MES Section Divider">
+</p>
+~~~
 
 **سربرگ اصلی:**
 
@@ -98,6 +113,14 @@
 - انیمیشن‌ها با قابلیت‌های SVG/SMIL پیاده‌سازی شده‌اند.
 - برای نمایش در GitHub از تگ HTML یعنی img استفاده کنید؛ پشتیبانی انیمیشن ممکن است بسته به مرورگر و نحوه نمایش متفاوت باشد.
 - رنگ‌های اصلی: آبی تیره، آبی کبالت، فیروزه‌ای و سفید یخی.
+
+## تصاویر و دیاگرام‌های راهنما
+
+جداکننده اختصاصی MES برای تفکیک بصری بخش‌های README:
+
+<p align="center">
+  <img src="MES-Divider.svg" width="100%" alt="MES Divider">
+</p>
 
 ---
 
