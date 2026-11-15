@@ -156,3 +156,5 @@ The method returns a `uint32_t` value, containing the data0 and data1 bytes and 
 
 ## Disclaimer
 - All code on this GitHub account, including this library is provided to you on an as-is basis without guarantees and with all liability dismissed. It may be used at your own risk. Unfortunately I have no means to provide support.
+
+![MES Animated Logo](../../Images/GitHub-Assets/MES_Animated_Logo_640x480.svg)
