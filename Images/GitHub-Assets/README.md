@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="MES_Animated_Logo_640x480.svg" width="360" alt="MES Animated Logo">
+</p>
+
 # MES Animated GitHub Assets
 
 مجموعه‌ای از فایل‌های SVG متحرک با هویت بصری **معمار الکترونیک صنعت (MES)** برای استفاده در README مخزن‌ها و پروفایل GitHub.
