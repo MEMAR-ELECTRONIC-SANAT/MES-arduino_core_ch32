@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="Images/GitHub-Assets/MES_Animated_Logo_640x480.svg" width="360" alt="MES Animated Logo">
+
 </p>
 
 <div align="center">
@@ -41,7 +41,7 @@
    https://github.com/openwch/board_manager_files/raw/main/package_ch32v_index.json
    ```
 
-2. از مسیر **Tools → Board → Boards Manager** عبارت **CH32** را جست‌وجو کرده و بسته **CH32 MCU EVT Boards** را نصب کنید.  
+2. از مسیر **Tools → Board → Boards Manager** عبارت **CH32** را جست‌وجو کرده و بسته **CH32 MCU EVT Boards** را نصب کنید.
    با نصب این بسته، زنجیره ابزار شامل WCH GCC 15.2 و OpenOCD 2.10 نیز دریافت می‌شود.
 
 3. از مسیر **Tools → Board → CH32 MCU EVT Boards** خانواده تراشه را انتخاب کنید؛ سپس مدل دقیق تراشه را از بخش **Tools → Board Select** مشخص کنید.
@@ -87,7 +87,6 @@ brew install libusb
 
 اگر پس از نصب `libusb` همچنان هنگام آپلود با خطاهای مرتبط با آن مواجه شدید، با تیم MounRiver Studio از طریق نشانی support@mounriver.com تماس بگیرید؛ زنجیره ابزار و OpenOCD توسط این تیم ساخته می‌شوند.
 
-
 <p align="center">
   <img src="Images/GitHub-Assets/MES-Section-Header.svg" width="100%" alt="Supported WCH CH32 Microcontrollers">
 </p>
@@ -104,7 +103,7 @@ brew install libusb
 | **CH32V30x** | CH32V307VCT6 EVT | QingKe V4F (دارای FPU) | 144 MHz | 256 KB / 64 KB | 1.0.3 |
 | **CH32L10x** | CH32L103C8T6 EVT | QingKe V4C | 96 MHz | 64 KB / 20 KB | 1.0.5 |
 
-پشتیبانی از پکیج‌های بیشتر خانواده V002/V004/V005/V006/V007 و همچنین CH32X033 در دست توسعه است ([#200](https://github.com/openwch/arduino_core_ch32/pull/200)، [#171](https://github.com/openwch/arduino_core_ch32/pull/171)).  
+پشتیبانی از پکیج‌های بیشتر خانواده V002/V004/V005/V006/V007 و همچنین CH32X033 در دست توسعه است ([#200](https://github.com/openwch/arduino_core_ch32/pull/200)، [#171](https://github.com/openwch/arduino_core_ch32/pull/171)).
 بردهایی که در جدول بالا نام برده نشده‌اند، معمولاً می‌توانند از Variant مربوط به همان تراشه استفاده کنند. برای اطلاعات بیشتر، راهنمای [افزودن برد](CONTRIBUTING.md#adding-a-chip-or-board) را ببینید.
 
 ## امکانات
@@ -138,7 +137,6 @@ brew install libusb
 4. در این خانواده‌ها، فعال‌سازی LTO باعث حذف Handlerهای وقفه هسته می‌شود ([Issue #204](https://github.com/openwch/arduino_core_ch32/issues/204))؛ بنابراین از گزینه‌های معمول بهینه‌سازی استفاده کنید.
 
 فهرست مشکلات و قابلیت‌های در دست بررسی در بخش [Issues مخزن](https://github.com/openwch/arduino_core_ch32/issues) قرار دارد.
-
 
 <p align="center">
   <img src="Images/GitHub-Assets/MES-Project-Card.svg" width="100%" alt="Arduino Core for WCH CH32 — Development Resources">
@@ -256,7 +254,6 @@ platform.txt         دستورهای ساخت، زنجیره ابزار و اب
   <img src="Images/GitHub-Assets/MES-Divider.svg" width="100%" alt="MES Divider">
 </p>
 
-
 <p align="center">
   <img src="Images/GitHub-Assets/MES-Status-Strip.svg" width="100%" alt="MES Embedded Engineering Resources">
 </p>
@@ -275,7 +272,8 @@ platform.txt         دستورهای ساخت، زنجیره ابزار و اب
 
 [مشاهده سایر آموزش‌ها](https://github.com/MEMAR-ELECTRONIC-SANAT)
 
-
 <p align="center">
   <img src="Images/GitHub-Assets/MES-Thank-You-Footer.svg" width="100%" alt="Thank you for visiting MES">
 </p>
+
+![MES Animated Logo](Images/GitHub-Assets/MES_Animated_Logo_640x480.svg)
