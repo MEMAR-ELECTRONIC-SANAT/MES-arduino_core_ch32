@@ -11,4 +11,6 @@ To enable scanning these changes are required in libraries/Wire/src/utility/twi.
 Note: Currently there's no support for [Wire.setWireTimeout(timeout, reset_on_timeout)](https://www.arduino.cc/reference/en/language/functions/communication/wire/setwiretimeout/).
 Inspiration from [i2c_scanner](https://github.com/mockthebear/easy-ch32v003/tree/main/examples/i2c_scanner) by @mockthebear.
 
-![MES Animated Logo](../../../../Images/GitHub-Assets/MES_Animated_Logo_640x480.svg)
+<p align="center">
+  <img src="../../../../Images/GitHub-Assets/MES_Animated_Logo_640x480.svg" width="140" alt="MES Animated Logo">
+</p>
